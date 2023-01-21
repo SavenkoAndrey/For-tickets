@@ -31,18 +31,8 @@ function isPossibleToGiveChange(banknotesArray) {
             changeValueB -= changeB ;
             changeValueA -= changeA;  
             bank += 25;   
-         // }else if (changeValueA < 75){
-            // changeValueA -= changeA*2;
-            
-            // changeValueB -= changeB ;
-            // changeValueA -= changeA; 
-            // bank += 25;
          }else {
-            // changeValueB -= changeB ;
-            // changeValueA -= changeA;  
-            // bank += 25; 
-            // changeValueA -= changeA*2;
-            // return true;
+          
          }
 
          
@@ -56,6 +46,6 @@ function isPossibleToGiveChange(banknotesArray) {
       return true;
     }
 }
-console.log(isPossibleToGiveChange([25, 25, 50, 25, 100, 50, 50])); // True
+console.log(isPossibleToGiveChange([25, 25, 25, 50, 50, 100])); // true 
 
 
